@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://test-new-hlwm.onrender.com",
+  baseURL: "https://test-new-x91y.onrender.com",
 });
 
 axiosInstance.interceptors.request.use(
