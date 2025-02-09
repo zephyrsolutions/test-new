@@ -51,16 +51,8 @@ export const initialSignUpFormData = {
 };
 
 export const languageOptions = [
-  { id: "english", label: "English" },
-  { id: "spanish", label: "Spanish" },
-  { id: "french", label: "French" },
-  { id: "german", label: "German" },
-  { id: "chinese", label: "Chinese" },
-  { id: "japanese", label: "Japanese" },
-  { id: "korean", label: "Korean" },
-  { id: "portuguese", label: "Portuguese" },
-  { id: "arabic", label: "Arabic" },
-  { id: "russian", label: "Russian" },
+  { id: "english", label: "English" },  
+  { id: "assamese", label: "Assamese" },  
 ];
 
 export const courseLevelOptions = [
@@ -70,16 +62,10 @@ export const courseLevelOptions = [
 ];
 
 export const courseCategories = [
-  { id: "web-development", label: "Web Development" },
-  { id: "backend-development", label: "Backend Development" },
-  { id: "data-science", label: "Data Science" },
-  { id: "machine-learning", label: "Machine Learning" },
-  { id: "artificial-intelligence", label: "Artificial Intelligence" },
-  { id: "cloud-computing", label: "Cloud Computing" },
-  { id: "cyber-security", label: "Cyber Security" },
-  { id: "mobile-development", label: "Mobile Development" },
-  { id: "game-development", label: "Game Development" },
-  { id: "software-engineering", label: "Software Engineering" },
+  { id: "class-7", label: "Class VII" },
+  { id: "class-8", label: "Class VIII" },
+  { id: "class-9", label: "Class IX" },
+  { id: "class-10", label: "Class X" },
 ];
 
 export const courseLandingPageFormControls = [

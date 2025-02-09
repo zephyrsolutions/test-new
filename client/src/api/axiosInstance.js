@@ -4,6 +4,9 @@ const axiosInstance = axios.create({
   baseURL: "https://test-new-x91y.onrender.com",
 });
 
+// https://test-new-x91y.onrender.com
+// http://localhost:5000
+
 axiosInstance.interceptors.request.use(
   (config) => {
     const accessToken = JSON.parse(sessionStorage.getItem("accessToken")) || "";
